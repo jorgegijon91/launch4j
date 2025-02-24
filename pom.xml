@@ -22,9 +22,9 @@
 						<configuration>
 							<headerType>gui</headerType>
 							<outfile>
-								${project.build.directory}/miApp.exe</outfile>
+								${project.build.directory}/${project.build.finalName}.exe</outfile>
 							<jar>
-								${project.build.directory}/miApp.jar</jar>
+								${project.build.directory}/${project.build.finalName}.jar</jar>
 							<errTitle>App Error</errTitle>
 							<classPath>
 								<mainClass>
@@ -36,14 +36,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<dependencies>
-		<!--
-		https://mvnrepository.com/artifact/com.akathist.maven.plugins.launch4j/launch4j-maven-plugin -->
-		<dependency>
-			<groupId>com.akathist.maven.plugins.launch4j</groupId>
-			<artifactId>launch4j-maven-plugin</artifactId>
-			<version>2.5.3</version>
-		</dependency>
 
-	</dependencies>
 </project>
