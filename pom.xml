@@ -28,7 +28,7 @@
 							<errTitle>App Error</errTitle>
 							<classPath>
 								<mainClass>
-									com.git-launch4j.main.Interfaz</mainClass>
+									main.Interfaz</mainClass>
 							</classPath>
 						</configuration>
 					</execution>
